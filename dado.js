@@ -123,7 +123,7 @@ function rolarDado(message) {
 
     // CORREÇÃO 3 (Parte B): O limite do Discord é de 2000 caracteres. Cortamos em 1900 por segurança.
     if (resposta.length > 1900) {
-        resposta = resposta.slice(0, 1900) + "\n...\n*(resultado muito grande)*";
+        resposta = resposta.slice(0, 900) + "\n...\n*(resultado muito grande)*";
     }
 
     message.reply(resposta);
