@@ -1,0 +1,14 @@
+{
+    "name": "rpg-dice-bot",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "dependencies": {
+        "discord.js": "^14.26.0",
+        "dotenv": "^17.4.0",
+        "express": "^4.22.1",
+        "nodemon": "^3.1.14"
+    }
+}
